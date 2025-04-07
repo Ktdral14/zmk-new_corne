@@ -106,12 +106,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&accent_A'
-  - '&accent_E'
-  - '&accent_I'
-  - '&accent_O'
-  - '&accent_U'
-  - '&umlaut_U'
+  - '&accent_CA'
+  - '&accent_CE'
+  - '&accent_CI'
+  - '&accent_CO'
+  - '&accent_CU'
+  - '&umlaut_CU'
   - {type: held}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -136,7 +136,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&enie'
-  - '&ENIE'
+  - '&CENIE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&question'
