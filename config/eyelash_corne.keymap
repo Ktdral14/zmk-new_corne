@@ -44,7 +44,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        accent_A: accent_A {
+        accent_CA: accent_CA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -66,7 +66,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        accent_E: accent_E {
+        accent_CE: accent_CE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -88,7 +88,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        accent_I: accent_I {
+        accent_CI: accent_CI {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -110,7 +110,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        accent_O: accent_O {
+        accent_CO: accent_CO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -132,7 +132,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        accent_U: accent_U {
+        accent_CU: accent_CU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -154,7 +154,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        umlaut_U: umlaut_U {
+        umlaut_CU: umlaut_CU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -176,7 +176,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        ENIE: ENIE {
+        CENIE: CENIE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -264,9 +264,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp TAB  &none           &kp UP_ARROW    &none            &none   &none                            &mmv MOVE_UP                     &accent_A   &accent_E   &accent_I  &accent_O  &accent_U  &umlaut_U
+&kp TAB  &none           &kp UP_ARROW    &none            &none   &none                            &mmv MOVE_UP                     &accent_CA   &accent_CE   &accent_CI  &accent_CO  &accent_CU  &umlaut_CU
 &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &accent_a   &accent_e   &accent_i  &accent_o  &accent_u  &umlaut_u
-&trans   &none           &none           &none            &none   &none  &trans                    &mmv MOVE_DOWN                   &enie       &ENIE       &none      &none      &question  &exclamation
+&trans   &none           &none           &none            &none   &none  &trans                    &mmv MOVE_DOWN                   &enie       &CENIE       &none      &none      &question  &exclamation
                                          &kp LALT         &trans  &trans                                                            &trans  &trans  &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
