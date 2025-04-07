@@ -111,7 +111,7 @@ layers:
   - '&accent_CI'
   - '&accent_CO'
   - '&accent_CU'
-  - '&umlaut_CU'
+  - '&diaeresis_CU'
   - {type: held}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -126,7 +126,7 @@ layers:
   - '&accent_i'
   - '&accent_o'
   - '&accent_u'
-  - '&umlaut_u'
+  - '&diaeresis_u'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
