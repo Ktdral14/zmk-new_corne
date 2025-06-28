@@ -224,7 +224,7 @@
         td1: td1 {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Ctrl/Alt Tap Dance";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp LALT>;
         };
     };
