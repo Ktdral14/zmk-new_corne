@@ -31,6 +31,10 @@
     tapping-term-ms = <150>;
 };
 
+&mt {
+    tapping-term-ms = <400>;
+};
+
 / {
     macros {
         accent_a: accent_a {
